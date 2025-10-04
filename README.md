@@ -64,3 +64,8 @@
             ));
        ```
     4. WP_REST_Server::CREATABLE. Isso é uma constante do WordPress que significa: esse endpoint aceita métodos de criação de recurso → ou seja, POST. É igual a escrever 'POST', só que mais semântico e compatível.
+   
+### Criando usuário
+
+- O que a gente vai precisar?
+  Lembra do request, que a gente passou como parâmetro da função? Vamos usar ele para separar nossos dados
